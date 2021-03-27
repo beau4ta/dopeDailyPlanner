@@ -1,0 +1,112 @@
+body {
+  font-family: "Open Sans", monospace;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color:  #2c06d5;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  font-family: "Train One", cursive;
+  text-align: center;
+  background-color: transparent;
+  color:  #2c06d5;
+  border-radius: 0;
+  border-bottom: 10px solid#2c06d5;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #7a7a7a;
+  color: rgb(0, 0, 0);
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.time-button{
+  display: flex;
+  flex-direction: column;
+  order: 3;
+}
+
+.saveBtn {
+  height: 3.63rem;
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #2c06d5;
+  color: white;
+}
+
+.saveBtn:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.table-container{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.table { 
+  display: flex;
+  justify-content: center;
+  flex-shrink: 3;
+}
+
+.time-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.time-list {
+  color:#2c06d5;
+}
+
+.input-box {
+  height: 3.6rem;
+  width: 30rem;
+}
+
+.time {
+  border-right: solid;
+}
