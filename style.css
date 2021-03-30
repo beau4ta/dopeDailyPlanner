@@ -95,7 +95,10 @@ textarea {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
 
+.time-button{
+  color: black;
 }
 
 .time-list {
