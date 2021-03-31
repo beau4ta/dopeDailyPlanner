@@ -4,7 +4,7 @@ var tableContainer = document.querySelector(".table");
 var inputBox = document.querySelector(".input-box");
 var currentDate = document.querySelector("#currentDay");
 var currentTime = moment().format("LT")
-var currentHour = moment().format("H");
+var currentHour = moment().format("h");
 
 console.log(currentHour);
 
@@ -14,17 +14,17 @@ var timeSlots = [
     "10",
     "11",
     "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
 ];
 
 var timeSlotLength = timeSlots.length
-
+   
 currentDate.textContent = moment().format("MMMM Do YYYY, h:mm:ss a");
 
 
@@ -44,7 +44,7 @@ function addTime() {
             time.textContent = timeSlot + "pm";
         }
 
-        if (timeSlot === "12") {
+        if (timeSlot === 12) {
             time.textContent = timeSlot + "pm";
         };
         
